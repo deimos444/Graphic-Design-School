@@ -75,26 +75,53 @@ body {
   color: #0d1a2b;
 }
 
-main h2 {
+h1 {
+  font-size: 90px;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+main img {
+  width: 350px;
+  margin-top: 65px;
+  margin-left: 185px;
+}
+
+main h1 {
+  margin-left: 250px;
+  margin-top: -450px;
+}
+
+main p {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: bold;
+  margin-left: 695px;
   color: #ff3040;
-  text-align: center;
-  font-size: 35px;
-  margin-top: 4%;
+  font-size: 25px;
+  margin-top: -30px;
+  margin-right: 95px;
 }
 
 footer {
   width: 100%;
   background-color: #ff3040;
-  margin-top: 70px;
+  margin-top: 62px;
 }
 
 footer h2 {
   color: white;
   padding-top: 20px;
   transition-duration: 0.5s;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 footer h2:hover {
