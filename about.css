@@ -75,16 +75,6 @@ body {
   color: #0d1a2b;
 }
 
-h1 {
-  font-size: 90px;
-  font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  text-align: center;
-  margin-top: 10vh;
-}
-
 main h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -95,34 +85,6 @@ main h2 {
   margin-top: 4%;
 }
 
-button {
-  border-radius: 50px;
-  font-size: 30px;
-  padding: 15px;
-  width: 400px;
-  background-color: #1f1f1f;
-  border: solid #ff3040;
-  color: white;
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  transition-duration: 0.5s;
-  text-align: center;
-  cursor: pointer;
-  box-shadow: 0 9px #1f1f1f;
-  display: block;
-  margin: 0 auto;
-  margin-top: 60px;
-}
-
-button:hover {
-  background-color: #ff3040;
-}
-
-button:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(15px);
-}
-
 footer {
   width: 100%;
   background-color: #ff3040;
@@ -131,7 +93,6 @@ footer {
 
 footer h2 {
   color: white;
-  text-align: center;
   padding-top: 20px;
   transition-duration: 0.5s;
 }
