@@ -1,0 +1,194 @@
+nav {
+  display: flex;
+  background-color: #ff3040;
+  width: 100vw;
+  height: 16vh;
+  margin: 0;
+  padding: 0;
+}
+
+nav h2:hover {
+  color: #0d1a2b;
+}
+
+nav h2 {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+
+#logo {
+  margin-left: 10vh;
+}
+
+nav-links {
+  display: flex;
+  gap: 10vh;
+  align-items: center;
+  margin-left: 11%;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 3vh;
+  color: white;
+  flex-shrink: 1;
+}
+
+nav-links a {
+  transition-duration: 0.5s;
+}
+
+nav-links a:hover {
+  color: #0d1a2b;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+
+#menu {
+  font-size: 4.5vh;
+  margin-left: 11%;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#menu:hover {
+  color: #0d1a2b;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+main h2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  color: #ff3040;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 4%;
+}
+
+button {
+  border-radius: 50px;
+  font-size: 30px;
+  padding: 15px;
+  width: 400px;
+  background-color: #1f1f1f;
+  border: solid #ff3040;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  transition-duration: 0.5s;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 9px #1f1f1f;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+button:hover {
+  background-color: #ff3040;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(15px);
+}
+
+footer {
+  width: 100%;
+  background-color: #ff3040;
+  margin-top: 70px;
+}
+
+footer h2 {
+  color: white;
+  padding-top: 20px;
+  transition-duration: 0.5s;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}
+
+footer h2:hover {
+  color: #0d1a2b;
+}
+
+footer h3 {
+  color: #0d1a2b;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+  padding: 1px;
+  transition-duration: 0.5s;
+}
+
+footer h3:hover {
+  color: white;
+}
+
+footer li {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: -25px;
+}
+
+footer a {
+  color: white;
+  transition-duration: 0.5s;
+}
+
+footer a:hover {
+  color: #0d1a2b;
+}
+
+footer p {
+  font-size: 18px;
+  text-align: center;
+  color: #0d1a2b;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  padding-bottom: 20px;
+  transition-duration: 0.5s;
+}
+
+footer p:hover {
+  color: white;
+}
